@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Ayuda"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="484" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="410" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f8" green="ff" red="db" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="13" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="  &#xa;&#x9;               AYUDA DE AN&#xc1;LISIS         &#xa;     _____________________________________________________________    &#xa;&#xa;&#xa;         ESTE M&#xd3;DULO PERMITE LA VISUALIZACI&#xd3;N Y EL AN&#xc1;LISIS DE &#xa;         LAS SE&#xd1;ALES.&#xa; &#xa;         FICHERO.&#xa; &#xa;         Se&#xf1;al. Permite cargar un fichero de audio (.wav)&#xa; &#xa;  &#xa;         CURSOR.&#xa;  &#xa;         Marca de Trama: Permite marcar una sola trama en la se&#xf1;al, al&#xa;         hacerlo, aparece la Leyenda de Trama. La trama no puede &#xa;         exceder los 7000 milisegundos.&#xa; &#xa;         Repintar Pantalla: Borra las marcas de la trama realizada.&#xa; &#xa;         REPRODUCIR.&#xa;  &#xa;         Se&#xf1;al. Reproduce la se&#xf1;al completa.&#xa; &#xa;         Trama: Reproduce la trama o parte correspondiente.&#xa; &#xa;         VER.&#xa; &#xa;         Informaci&#xf3;n de Algoritmo: Brinda informaci&#xf3;n del algoritmo&#xa;         usado para calcular el par&#xe1;metro F0 (Frecuencia Fundamental)&#xa;         &#xa;         Leyenda de Trama: Aparece la Leyenda de Trama en la pantalla.&#xa; &#xa;         Grid: Habilita o deshabilita rejillas o cuadriculas en el&#xa;         Oscilograma.&#xa; &#xa;         Cursor en Volt: Presenta el valor del cursor de amplitud en Volt.&#xa; &#xa;         Cursor en dBm: Presenta el valor del cursor de amplitud en dBm&#xa;         (dBm: decibel referido a 1 milivolt).&#xa; &#xa;         Repintar Pantalla: Borra todas las marcas de la trama realizada.&#xa; &#xa;         AN&#xc1;LISIS.&#xa; &#xa;         Calcular F0: Calcula F0  en la trama marcada&#xa;         (ver Informaci&#xf3;n de Algoritmo).&#xa; &#xa;         INICIO. &#xa; &#xa;         Va a la pantalla de inicio. &#xa;"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
